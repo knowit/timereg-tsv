@@ -1,0 +1,15 @@
+{
+    "name": "TimeregTSV",
+    "version": "0.3.0",
+    "description": "Last ned timeliste fra Timereg som TSV",
+    "homepage_url": "https://github.com/michaeljohansen/timereg-tsv",
+    "offline_enabled": false,
+    "manifest_version": 2,
+
+    "content_scripts": [
+        {
+            "matches": [ "https://timereg.knowit.no/*" ],
+            "js": [ "jquery-3.3.1.min.js", "timereg.js" ]
+        }
+    ]
+}
